@@ -1,0 +1,49 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  box-shadow: 3px 6px;
+  margin: 10px;
+  height: 600px;
+  width: auto;
+  border: solid 1px black;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  border: solid 1px lightblue;
+  text-align: center;
+  width: 100%;
+}
+
+.card img {
+  align-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.available {
+  background-color: darkgray;
+  color: yellow;
+}
