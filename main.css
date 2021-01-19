@@ -1,0 +1,62 @@
+body {
+  background-color: olive;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.card {
+  box-shadow: 3px 6px;
+  margin: 15px;
+  width: 350px;
+  height: 850px;
+  border: solid 1px black;
+  background-color: wheat;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+header {
+  border: solid 1px lightblue;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.card img {
+  align-content: center;
+  height: 200px;
+  width: 350px;
+}
+
+.img1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img2 {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.available {
+  background-color: darkgray;
+  color: yellow;
+}
+
+p {
+  font-family: 'Noto Sans HK', sans-serif;
+}
