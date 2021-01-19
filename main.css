@@ -1,3 +1,7 @@
+body {
+  background-color: olive;
+}
+
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -9,10 +13,10 @@
   height: 600px;
   width: auto;
   border: solid 1px black;
+  background-color: wheat;
 }
 
 .column {
-  float: left;
   width: 30%;
   padding: 0 10px;
 }
@@ -31,6 +35,7 @@ header {
   border: solid 1px lightblue;
   text-align: center;
   width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .card img {
@@ -46,4 +51,8 @@ header {
 .available {
   background-color: darkgray;
   color: yellow;
+}
+
+p {
+  font-family: 'Noto Sans HK', sans-serif;
 }
